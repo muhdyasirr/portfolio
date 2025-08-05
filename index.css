@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background: #1a1a1a;
+}
+
+.logo {
+    color: #ff4500;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #bbb;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #ff7b00;
+}
+
+.btn-hire {
+    background: #ff7b00;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+}
+
+.content p {
+    color: #bbb;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.content h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.content h1 span {
+    color: #ff7b00;
+}
+
+.social-icons a {
+    color: #bbb;
+    margin-right: 15px;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #ff7b00;
+}
+
+.buttons {
+    margin: 20px 0;
+}
+
+.btn-cv {
+    border: 1px solid #bbb;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.stats div {
+    background: #222;
+    padding: 15px 25px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.stats h3 {
+    color: #ff7b00;
+    font-size: 22px;
+}
+
+.profile-image img {
+    width: 350px;
+    border-radius: 10px;
+}
